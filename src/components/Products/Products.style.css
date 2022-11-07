@@ -1,0 +1,19 @@
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.productsText{
+    margin-top: 1rem;
+    position: relative;
+}
+
+.productsText::after{
+    content: '';
+    position: absolute;
+    width: 141px;
+    height: 1px;
+    background-color: black;
+    bottom: -8px;
+    left: 0;
+}
