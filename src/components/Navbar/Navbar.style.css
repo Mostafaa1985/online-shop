@@ -63,6 +63,7 @@
     padding: 0 1rem;
     cursor: pointer;
     list-style: none;
+    
 }
 
 .hamburger {
@@ -93,7 +94,7 @@
 
 
 .carts {
-    width: 30%;
+    width: 40%;
     height: 25rem;
     background-color: white;
     position: absolute;
@@ -119,7 +120,7 @@
 .carts p {
     margin: 3px;
     padding: 5% 2% 1% 1%;
-    height: 5rem;
+    height:50%;
     width: 50%;
 }
 
@@ -129,7 +130,7 @@
     border-radius: 50%;
     width: 24px;
     height: 24px;
-    text-align: center;
+    text-align: center;    
     /* margin-top:10%; */
     /* margin-right: 10%; */
 
@@ -141,11 +142,12 @@
 
 .product {
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    margin-bottom:5px; 
 }
 
 .imageContainer {
-    width: 10%;
+    width: 22%;
 }
 
 
@@ -161,6 +163,7 @@
     .carts p {
         height: 100%;
         font-size: 0.6rem;
+        
     }
     .imageContainer {
         width: 30%;
@@ -262,6 +265,8 @@ li {
     }
 }
 
-@media (min-width: 500px) and (max-width:666px) {
-    
+@media (min-width: 711px) and (max-width:950px) {
+    .carts p {
+        font-size: 0.9rem;
+    }
 }
